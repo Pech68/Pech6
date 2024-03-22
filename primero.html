@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Revista Digital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .documentos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .documento {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .documento a {
+            text-decoration: none;
+            color: #333;
+        }
+        /* Media query para pantallas pequeñas */
+        @media screen and (max-width: 600px) {
+            .container {
+                max-width: 100%;
+                padding: 10px;
+            }
+            .documento {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Mi Revista Digital</h1>
+        <div class="documentos">
+            <div class="documento">
+                <a href="C:\Users\secreinv\Downloads\pagina\uploads" target="_blank">Documento 1</a>
+            </div>
+            <div class="documento">
+                <a href="ruta_al_documento1.pdf" target="_blank">Documento 1</a>
+            </div>
+            <div class="documento">
+                <a href="ruta_al_documento2.pdf" target="_blank">Documento 2</a>
+            </div>
+            <div class="documento">
+                <a href="ruta_al_documento3.pdf" target="_blank">Documento 3</a>
+            </div>
+            <!-- Puedes copiar y pegar más bloques de código como los de arriba para agregar más documentos -->
+        </div>
+    </div>
+</body>
+</html>
